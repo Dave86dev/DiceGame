@@ -50,7 +50,7 @@ var tirada = {
     },
     opDemand() {
 
-        /*METODOLOGÍA CON EVAL Y PROMPT. MARK I
+        /*METODOLOGÍA CON EVAL Y PROMPT. MARK I*/
         var operation = "";
         operation = prompt("....Puedes escribir aqui la operación matemática necesaria para que combinando los dados obtengamos el numero del dodecaedro?");
 
@@ -58,14 +58,14 @@ var tirada = {
             console.error("SI"); //LA OPERACION ES CORRECTA
         }else{
             console.error("NO"); //LA OPERACION ES INCORRECTA
-        }*/
+        }
 
         /*METODOLOGÍA PIDIENDO DADO A DADO.
         ------------------------------------------------------------------------------------------------------------------*/
 
         
         
-        
+        /*
         var operation1 = "";
         var operation2 = "";
         var operation3 = "";
@@ -80,7 +80,7 @@ var tirada = {
         optotal += tirada.diceCheck();
         //operation2 = prompt("Ahora si eres tan amable dime el operando");
         //optotal += operation2;
-
+        */
    
     }
 }
